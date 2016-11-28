@@ -97,7 +97,7 @@
             "font-size": "16px",
             "font-weight": "300",
             "line-height": "32px",
-            "color": "@color-swatch4",
+            "color": "@color-swatch5",
             "letter-spacing": "0px"
         },
         "font6": {
@@ -214,7 +214,7 @@
         "navigation": {
             "color__navigation--text": "white",
             "color__navigation--text--hover": "@font-swatch6-color",
-            "color__navigation--text--selected": "@font-swatch6-color-hover",
+            "color__navigation--text--selected": "white",
             "font__navigation--font-family" : "@font-swatch6-font-family",
             "font__navigation--font-size" : "@font-swatch6-font-size",
             "font__navigation--font-weight" : "@font-swatch6-font-weight",
