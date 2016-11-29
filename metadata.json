@@ -194,11 +194,10 @@
             "font__p--letter-spacing" : "@font-swatch5-letter-spacing"
         },
         "button": {
-            "color__button--background": "transparent",
-            "color__button--background--hover": "@color__primary",
+            "color__button--background": "@color-swatch3",
+            "color__button--background--hover": "lighten(@color-swatch3,10%)",
             "color__button--text": "@font-swatch7-color",
             "color__button--text--hover": "@color-swatch1",
-            "color__button--border": "@color-swatch3",
             "font__button--font-family" : "@font-swatch7-font-family",
             "font__button--font-size" : "@font-swatch7-font-size",
             "font__button--font-weight" : "@font-swatch7-font-weight",

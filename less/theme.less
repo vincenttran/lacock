@@ -24,6 +24,16 @@
 // Footer
 // ------
 
+.above-footer {
+    background-color: #eeeeee;
+    .contactform__fieldset {
+        width: 50%;
+        @media @tablet {
+            width: 100%;
+        }
+    }
+}
+
 .template-footer {
 	min-height: 80px;
 	background-color: @color-swatch3;
@@ -96,7 +106,6 @@ blockquote {
 // ----------
 
 form, .form {
-    border: 1px solid @color-swatch7;
     @media @tablet {
         text-align: center;
     }
@@ -163,9 +172,8 @@ input[type="password"],
 textarea,
 .input--single-line {
     border: 0;
-    border-bottom: 1px solid @color-swatch7;
     webkit-appearance: none;
-    background-color: transparent;
+    background-color: white;
     &:focus {
         border: 0;
         box-shadow: none;
