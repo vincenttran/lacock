@@ -135,6 +135,7 @@
         border-radius: 0;
         outline: 0;
         border: 0;
+        margin-bottom: 30px;
         &:before {
             content: '';
             position: absolute;
@@ -177,7 +178,7 @@
     // Toggle Button Open State
     .open & {
         &.navigation-toggle {
-            background-color: @color-swatch1;
+            background-color: transparent;
             &:before {
                 margin-top: 21px;
                 background: @color-swatch1;
@@ -214,7 +215,8 @@
         display: none;
         .open & {
             display: block;
-            padding-top: 10px;
+            padding-top: 30px;
+            margin-top: 20px;
             border-top: 1px solid darken(@color__body--background, 9%);
             text-align: center;
         }
