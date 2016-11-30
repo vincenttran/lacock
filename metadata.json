@@ -138,7 +138,7 @@
             "letter-spacing": "1px"
         },
         "font10": {
-            "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
+            "font-family": "\"Playfair Display\", Times New Roman, serif",
             "font-size": "26px",
             "font-weight": "400",
             "line-height": "30px",

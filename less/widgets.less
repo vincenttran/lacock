@@ -125,7 +125,6 @@
 }
 
 .company-link {
-    text-transform: uppercase;
     vertical-align: middle;
 
     @media @tablet {
@@ -181,9 +180,9 @@
     // Flex child
     -webkit-box-ordinal-group: 1;
     -moz-box-ordinal-group: 1;
-    -webkit-order: 4;
-    -ms-flex-order: 4;
-    order: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -webkit-flex: 1 1 auto;
@@ -218,6 +217,40 @@
     }
 }
 
+
+// Header Extended Navigation
+.call {
+    // Flex child
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    @media @tablet {
+        -webkit-order: 4;
+        -ms-flex-order: 4;
+        order: 4;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.widget__clicktocall a {
+    color: white;
+    font-weight: 700;
+}
+
+.clicktocall__phone-number-link:hover {
+    background-color: transparent;
+}
 
 
 
@@ -825,6 +858,10 @@ button, .button {
     display: table;
     width: 70%;
     text-align: center;
+}
+
+.contactform__button {
+    background-color: @color-swatch3;
 }
 
 // Inputs

@@ -10,6 +10,15 @@
         <div class="header-extendednavigation">
             {{widget('extendednavigation', 'extendednavigation', {"align":"right"})|raw}}
         </div>
+        <div class="call">
+        {{widget('clicktocall', 'headerclicktocall', {
+  'phoneText': 'Call Now',
+  'italic': true,
+  'bold': true,
+  'fontSize': 18,
+  'align': 'widget-align-center'
+})|raw}}
+</div>
     </div>
 </header>
 <!-- End Header -->
